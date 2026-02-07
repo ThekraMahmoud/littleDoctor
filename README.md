@@ -1,16 +1,27 @@
-# todo_app
+# Little Doctor 🩺
 
-A new Flutter project.
+Little Doctor is a Flutter-based mobile application designed to support diabetes patients in tracking and reviewing their blood sugar readings.
 
-## Getting Started
+## Project Overview
+The application aims to provide a clear and user-friendly interface for recording blood glucose measurements and viewing detailed reading history.
 
-This project is a starting point for a Flutter application.
+## Current Development Stage
+This version focuses on the user interface design only.
+Business logic, data persistence, and backend integration will be implemented in later development phases.
 
-A few resources to get you started if this is your first Flutter project:
+## Implemented Screens (UI)
+- Blood sugar logs screen
+- Blood sugar reading details screen
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Technologies Used
+- Flutter
+- Dart
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Future Enhancements
+- User authentication
+- Blood sugar data analysis
+- Database integration
+- Notifications and alerts
+
+## Author
+Thekra Mahmoud Shami
