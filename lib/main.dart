@@ -3,6 +3,7 @@ import 'settings_page.dart';
 import 'profilepage.dart';
 import 'medications_page.dart';
 import 'health_dashboard.dart';
+import 'blood_sugar_logs_screen.dart';
 
 void main() {
   runApp(
@@ -170,6 +171,12 @@ class _HealthDashboardState extends State<HealthDashboard> {
                   "سجل السكر اليومي",
                   Icons.show_chart,
                   Colors.orange,
+                  onTap: () => Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => const BloodSugarLogsScreen(),
+                    ),
+                  ),
                 ),
                 _buildServiceCard(
                   3,
