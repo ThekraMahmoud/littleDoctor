@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:todo_app/login.dart';
 import 'settings_page.dart';
 import 'profilepage.dart';
 import 'medications_page.dart';
@@ -7,10 +8,7 @@ import 'blood_sugar_logs_screen.dart';
 
 void main() {
   runApp(
-    const MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: MainNavigationScreen(),
-    ),
+    const MaterialApp(debugShowCheckedModeBanner: false, home: LoginPage()),
   );
 }
 
@@ -147,9 +145,7 @@ class _HealthDashboardState extends State<HealthDashboard> {
                   Colors.teal,
                   onTap: () => Navigator.push(
                     context,
-                    MaterialPageRoute(
-                      builder: (context) => const MainHealthScreen(),
-                    ),
+                    MaterialPageRoute(builder: (context) => const LoginPage()),
                   ),
                 ),
                 _buildServiceCard(
